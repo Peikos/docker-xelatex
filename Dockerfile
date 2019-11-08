@@ -1,5 +1,5 @@
 FROM debian:latest
-MAINTAINER Jan Philip Bernius <janphilip@bernius.net>
+MAINTAINER Brian van der Bijl <peikos@peikos.net>
 
 LABEL version="1.1.0"
 
@@ -13,15 +13,13 @@ RUN apt-get update && \
   ca-certificates \
   lmodern \
   texlive-latex-base \
-# texlive-generic-extra \
-# texlive-fonts-extra \
   texlive-fonts-recommended \
   texlive-generic-recommended \
   texlive-lang-english \
-  latex-xcolor \
-  texlive-math-extra \
+  texlive-lang-european \
   texlive-latex-extra \
   texlive-bibtex-extra \
+  texlive-pstricks \
   biber \
   fontconfig \
   texlive-xetex && \

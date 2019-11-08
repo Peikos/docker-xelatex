@@ -1,5 +1,7 @@
-docker-xelatex
-==============
+# docker-guides
+docker-guides is a Docker container for generating the Turing Lab Guides, forked from [docker-xelatex](https://github.com/jpbernius/docker-xelatex) to include the packages needed in these documents.
+
+## docker-xelatex
 
 [![Docker Stars](https://img.shields.io/docker/stars/jpbernius/xelatex.svg)](https://hub.docker.com/r/jpbernius/xelatex/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/jpbernius/xelatex.svg)](https://hub.docker.com/r/jpbernius/xelatex/)
@@ -11,8 +13,8 @@ Docker container used for compile XeLaTex documents and deploy a generated PDF f
 docker run --rm -v $(shell pwd):/data jpbernius/xelatex make
 ```
 
-Example Makefile
-----------------
+## Example Makefile
+
 ```
 ######################
 #      Makefile      #
